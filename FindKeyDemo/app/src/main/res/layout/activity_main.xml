@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.findkeydemo.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:hint="请输入额关键词"
+        android:background="@null"
+        android:id="@+id/key"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="驾车驰骋在道路上时，您追求的是什么？是神闲气定，静逸舒适的驾驶环境，还是活力十足，加速时尽享推背感的强劲动力？无论是为引擎降噪，还是提供澎湃动力，宜动宜静，是什么在激发引擎的1号力量？即刻前往刻前往"
+        android:id="@+id/msg"/>
+
+</LinearLayout>
